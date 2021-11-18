@@ -32,7 +32,7 @@ java -jar target/reactive-api-integrate-with-redis-{versionNo}.jar
 
 ## Usage
 
-Reactive API has been introduced for this service. As we expect heavy API calls coming from various dashboards, we don't want one request blocking the other request.  
+Reactive API is Asynchronous and Non-Blocking which is fit for high frequency request system.  
 Path mapping is defined in the Router class, then handler will be invoked to handle business logic like service class.
 
 ### Save value
